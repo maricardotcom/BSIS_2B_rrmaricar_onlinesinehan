@@ -1,0 +1,327 @@
+*{
+	list-style-type:none;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	}
+	
+header {
+    width: 100%;
+    height: 42px;
+    -ms-layout-grid-mode: fixed;
+    overflow: hidden;
+    z-index: -1;
+    background-position: center;
+    display: inline-flex;
+    background-color: (105, 74, 74);
+}
+
+.sidenav{
+  height: 151%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 80px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #65000B;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 0) {
+  .sidenav {padding-top: 50px;}
+  .sidenav a {font-size: 25px;}
+}
+
+.main-section {
+  min-height: calc(100vh - 5rem);
+    text-align: center;
+    background-image: url(movies.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.overlay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(152, 152, 152);
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: calc(100vh - 5rem);
+  text-align: center;
+  text-decoration: none;
+}
+
+.overlay h1{
+  margin-top: 12rem;
+  margin-bottom: 17rem;
+  font-size: 3.5rem;
+  text-transform: display 20rem;;
+}
+
+.overlay span:hover{
+  color:#841617;
+  transform: scale(1.05);
+}
+
+.overlay span {
+  color:rgb(253, 251, 251);
+  font-size: larger;
+  -webkit-text-stroke: width value color value;
+}
+
+.overlay p{
+  width: 50%;
+  margin-top: -16rem;
+  margin-bottom: 2rem;
+ 
+}
+
+.overlay a{
+  color: #f3f3f3;
+  padding: 1.3rem 4rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  transition: all ease-in-out 0.3s;
+  text-decoration: none;
+}
+
+.overlay a:hover{
+  color: #400000;
+background: #f3f3f3;
+  transform: scale(1.05);
+}
+
+footer{
+  padding: -4rem;
+  text-align: center;
+  margin-bottom: 6rem;
+  line-height: 2.2rem;
+}
+
+.movie{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 4rem;
+}
+
+.movie-header{
+  text-align: center;
+}
+
+.movie-header p{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  letter-spacing: 1.5px;
+}
+
+.movie h2{
+  font-size: 4rem;
+  color: rgb(100, 6, 6);
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.movie-section{
+  justify-content: space-between;
+  padding: 0 5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.4rem;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  background-image: url
+}
+
+.movie-line p{
+  margin-top: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 6rem;
+  position: fixed;
+}
+
+.movie-line p::before{
+  width: 40%;
+  height: 1px;
+  background-color: #8d8989;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.movie-line p::after{
+  width: 40%;
+  height: 1px;
+  background-image: url(set.png);
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.movie-line{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 1rem;
+}
+
+.movie-line img{
+  max-width: 15rem;  
+  padding: 15px;
+  height: auto; 
+  box-shadow: 2px 2px 4px #2d2d2d;
+}
+
+.movie-line img:nth-child(4){
+  width: 15rem;
+}
+
+.service-container{
+  min-height: calc(100vh - 11rem);
+  text-align: center;
+  background-color: #ffffff;
+  transform: scale(1.5px);
+  background-size: cover;
+  background-position: center center;
+}
+
+.service-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh - 5rem;
+}
+
+.header-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-text p{
+  letter-spacing: 2px;
+}
+
+.serve{
+  background-color: var(--color-primary);
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.serve h1{
+  margin-top: 7rem;
+  font-size: 2.3rem;
+}
+
+.serve span{
+  color: rgb(91, 0, 0);
+}
+
+.maricar{
+  justify-content:space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-bottom: 13rem;
+  color:rgb(245, 238, 238)
+}
+
+.pricing-card{
+  position: absolute;
+  top: 2rem;
+  left: 17rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.pricing-card-box p{
+  margin: 0;
+  color: var(--color-secondary);
+}
+.pricing-card-box{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(16, 16, 16);
+  box-shadow: 2px 4px 3px rgba(141, 0, 0, 0.5);
+  padding: 2.3rem;
+  border-radius: 20px;
+  transition: all ease-in-out 0.5s;
+}
+
+.pricing-card-box:hover{
+  transform: scale(1.10);
+  background-color: rgb(0, 0, 0);
+}
+
+.box-top-content p:nth-child(1){
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.box-top-content p:nth-child(2){
+  margin-bottom: 1.5rem;
+}
+.box-top-content span{
+  font-weight: 900;
+}
+
+.box-bot-content{
+  margin-bottom: 2rem;
+}
+
+.perks{
+  font-size: 14px;
+  margin-bottom: 0.8rem;
+}
+
+.perks-list{
+  font-size: 12px;
+}
+
+.avail-button{
+  text-decoration: none;
+  text-align: center;
+  background: rgb(131, 131, 131);
+  color: rgb(245, 238, 238);
+  font-weight: 700;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
