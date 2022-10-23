@@ -1,0 +1,14 @@
+Good day Sir! 
+
+Yung database po namin na nasa loob nitong zip file ay yung updated po, 
+may mga changes po kasi kami na idinagdag na wala sa dating database na nasubmit namin. 
+
+Hinati-hati din po namin yung codes, sa "src" folder po dun po namin nilagay yung mga forms tapos po yung mga connections nasa "data" folder naman. 
+Gumamit din po kami sir ng font(Roboto) galing sa google fonts kaya po baka need ng internet para magamit yun
+
+Malaki din po yung screen ng laptop na napagcode-an namin sir, kaya po baka mag iba yung ibang button 
+
+
+Thank You!
+
+from: Group 4
