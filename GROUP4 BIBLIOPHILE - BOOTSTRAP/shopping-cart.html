@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliophile - Wish List</title>
+    <link rel="icon" href="./assets/Logo.svg">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg d-flex align-items-center justify-content-between mb-2">
+                <a class="navbar-brand wsm" href="index.html"><img src="./assets/Logo.svg" class="nav-logo" alt="logo"> Bibliography</a>
+                <div class="search-wrapper d-flex align-items-center">
+                    <div class="select-filter">
+                        <select name="filter" class="filter-select">
+                            <option value="">All Categories</option>
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Romance">Adventure</option>
+                            <option value="Romance">Mystery</option>
+                            <option value="Romance">Poetry</option>
+                            <option value="Romance">Fanfiction</option>
+                            <option value="Romance">Horror</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <span class="search-btn material-symbols-outlined">Search</span>
+                </div>
+                <div class="login-signup wsm d-flex align-items-center justify-content-end">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <a href="signup.html" class="signup-btn">Sign Up</a>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="link-wrapper d-flex align-items-center justify-content-between w-100">
+                    <ul class="navbar-nav wsm">
+                        <li class="nav-item">
+                            <a class="nav-link" href="new-arrivals.html">New Arrivals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="collection.html">Collection</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="books.html">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="category.html">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="orders.html">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav wsm justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link material-symbols-outlined" href="wishlist.html">favorite</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link material-symbols-outlined" href="shopping-cart.html">shopping_bag</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container py-5 shopping-cart">
+        <h3 class="cart-heading">Shopping Cart</h3>
+
+        <p class="shipping-txt">Shipping Details</p>
+        <div class="row g-5">
+            <div class="col-sm-12 col-md-9">
+                <form action="#" method="POST" autocomplete="off">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="form-group">
+                                <label for="firstname">Firstname<span class="text-danger">*</span></label>
+                                <input type="text" name="firstname" class="form-control" placeholder="Provide your firstname." required>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="form-group">
+                                <label for="middlename">Middlename<span class="text-danger">*</span></label>
+                                <input type="text" name="middlename" class="form-control" placeholder="Provide your middlename." required>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="form-group">
+                                <label for="lastname">Lastname<span class="text-danger">*</span></label>
+                                <input type="text" name="lastname" class="form-control" placeholder="Provide your lastname." required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group">
+                                <label for="barangay">Barangay<span class="text-danger">*</span></label>
+                                <input type="text" name="barangay" class="form-control" placeholder="Provide your barangay." required>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3">
+                            <div class="form-group">
+                                <label for="street">Street<span class="text-danger">*</span></label>
+                                <input type="text" name="street" class="form-control" placeholder="Provide your street." required>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3">
+                            <div class="form-group">
+                                <label for="postal_code">Postal Code <span class="text-danger">*</span></label>
+                                <input type="text" name="postal_code" class="form-control" placeholder="Provide your postal code." required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group">
+                                <label for="city">City<span class="text-danger">*</span></label>
+                                <input type="text" name="city" class="form-control" placeholder="Provide your city." required>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group">
+                                <label for="province">Province<span class="text-danger">*</span></label>
+                                <input type="text" name="province" class="form-control" placeholder="Provide your province." required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group">
+                                <label for="postal_code">Contact Number <span class="text-danger">*</span></label>
+                                <input type="text" name="contact_number" class="form-control" placeholder="Provide your contact number." required>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-btn">Save Details</button>
+                </form>
+            </div>
+            <div class="col-sm-12 col-md-3 order-summary-container">
+                <div class="order-heading">
+                    <p>Your Order</p>
+                </div>
+                <div class="cart-item">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-3">
+                            <img src="./assets/fic.jpg" alt="book">
+                        </div>
+                        <div class="col-sm-12 col-md-7">
+                            <p>Mortiga</p>
+                            <p>By Olivia Rice</p>
+                            <p><span class="item-price">₱500</span> x 2</p>
+                        </div>
+                        <div class="col-sm-12 col-md-2 d-flex align-items-center">
+                            <a href="#" class="text-danger material-symbols-outlined">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-3">
+                            <img src="./assets/fic.jpg" alt="book">
+                        </div>
+                        <div class="col-sm-12 col-md-7">
+                            <p>Mortiga</p>
+                            <p>By Olivia Rice</p>
+                            <p><span class="item-price">₱500</span> x 2</p>
+                        </div>
+                        <div class="col-sm-12 col-md-2 d-flex align-items-center">
+                            <a href="#" class="text-danger material-symbols-outlined">remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-summary">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <p>Total</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <p>₱2,000</p>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary form-btn w-100">Place Order</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bootstrap/bootstrap.js"></script>
+    <script src="./bootstrap/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

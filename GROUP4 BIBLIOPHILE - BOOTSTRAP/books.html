@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliophile - Wish List</title>
+    <link rel="icon" href="./assets/Logo.svg">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg d-flex align-items-center justify-content-between mb-2">
+                <a class="navbar-brand wsm" href="index.html"><img src="./assets/Logo.svg" class="nav-logo" alt="logo"> Bibliography</a>
+                <div class="search-wrapper d-flex align-items-center">
+                    <div class="select-filter">
+                        <select name="filter" class="filter-select">
+                            <option value="">All Categories</option>
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Romance">Adventure</option>
+                            <option value="Romance">Mystery</option>
+                            <option value="Romance">Poetry</option>
+                            <option value="Romance">Fanfiction</option>
+                            <option value="Romance">Horror</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <span class="search-btn material-symbols-outlined">Search</span>
+                </div>
+                <div class="login-signup wsm d-flex align-items-center justify-content-end">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <a href="signup.html" class="signup-btn">Sign Up</a>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="link-wrapper d-flex align-items-center justify-content-between w-100">
+                    <ul class="navbar-nav wsm">
+                        <li class="nav-item">
+                            <a class="nav-link" href="new-arrivals.html">New Arrivals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="collection.html">Collection</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="books.html">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="category.html">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="orders.html">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav wsm justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link material-symbols-outlined" href="wishlist.html">favorite</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link material-symbols-outlined" href="shopping-cart.html">shopping_bag</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container vh-100">
+        <h3 class="heading-text">Bibliophile Books</h3>
+        <div class="row my-5">
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/hp7.png" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">Harry Potter</a>
+                <p class="book-price">₱1400.00</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/hesintoher.jpg" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">He's Into Her</a>
+                <p class="book-price">₱400.00</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/ft2.jpg" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">Fantasy Flight</a>
+                <p class="book-price">₱500.00</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/h.jpg" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">The Warrior Game</a>
+                <p class="book-price">₱1200.00</p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/ft1.jpg" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">The White Raven</a>
+                <p class="book-price">₱590.00</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/e.jpg" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">The Jungle Book</a>
+                <p class="book-price">₱900.00</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/4.jpg" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">The Hypocrite World</a>
+                <p class="book-price">₱800.00</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/10.jpg" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">The Gravity of Us </a>
+                <p class="book-price">₱450.00</p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/8.jpg" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">The Little Mermaid</a>
+                <p class="book-price">₱500.00</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/d.png" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">Illfame</a>
+                <p class="book-price">₱500.00</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/c.jpg" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">Jane Doe</a>
+                <p class="book-price">₱850.00</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="book">
+                    <a href="#" class="add-to-collections material-symbols-outlined">favorite</a>
+                    <img src="./assets/5.jpeg" alt="book image">
+                    <div class="book-overlay">
+                        <a href="add-to-cart.html">Get this book</a>
+                    </div>
+                </div>
+                <a href="view-book.html" class="view-book-link">Fortress Blood</a>
+                <p class="book-price">₱600.00</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bootstrap/bootstrap.js"></script>
+    <script src="./bootstrap/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+</body>
+</html>

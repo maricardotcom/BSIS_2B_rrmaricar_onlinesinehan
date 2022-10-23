@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliophile - Wish List</title>
+    <link rel="icon" href="./assets/Logo.svg">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg d-flex align-items-center justify-content-between mb-2">
+                <a class="navbar-brand wsm" href="index.html"><img src="./assets/Logo.svg" class="nav-logo" alt="logo"> Bibliography</a>
+                <div class="search-wrapper d-flex align-items-center">
+                    <div class="select-filter">
+                        <select name="filter" class="filter-select">
+                            <option value="">All Categories</option>
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Romance">Adventure</option>
+                            <option value="Romance">Mystery</option>
+                            <option value="Romance">Poetry</option>
+                            <option value="Romance">Fanfiction</option>
+                            <option value="Romance">Horror</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <span class="search-btn material-symbols-outlined">Search</span>
+                </div>
+                <div class="login-signup wsm d-flex align-items-center justify-content-end">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <a href="signup.html" class="signup-btn">Sign Up</a>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="link-wrapper d-flex align-items-center justify-content-between w-100">
+                    <ul class="navbar-nav wsm">
+                        <li class="nav-item">
+                            <a class="nav-link" href="new-arrivals.html">New Arrivals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="collection.html">Collection</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="books.html">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="category.html">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="orders.html">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav wsm justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link material-symbols-outlined" href="wishlist.html">favorite</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link material-symbols-outlined" href="shopping-cart.html">shopping_bag</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container py-5 shopping-cart">
+        <h3 class="cart-heading">Orders</h3>
+
+        <p class="shipping-txt">Order Details</p>
+        <div class="row g-5">
+            <div class="table-responsive">
+                <table class="table text-center">
+                    <thead class="thead">
+                        <tr>
+                          <th>Order No.</th>
+                          <th>Amount</th>
+                          <th>Item Count</th>
+                          <th>Status</th>
+                          <th>Date Ordered</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                            <td>1000245</td>
+                            <td>₱2000.00</td>
+                            <td>4</td>
+                            <td><span class="delivered">Delivered</span></td>
+                            <td>10-30-2022</td>
+                            <td><a href="view-order.html" class="view-order d-flex align-items-center justify-content-center"><span class="material-symbols-outlined">open_in_new</span> View Order Items</a></td>
+                        </tr>
+                        <tr>
+                            <td>1000245</td>
+                            <td>₱2000.00</td>
+                            <td>4</td>
+                            <td><span class="processing">Processing</span></td>
+                            <td>10-30-2022</td>
+                            <td><a href="view-order.html" class="view-order d-flex align-items-center justify-content-center"><span class="material-symbols-outlined">open_in_new</span> View Order Items</a></td>
+                        </tr>
+                        <tr>
+                            <td>1000245</td>
+                            <td>₱2000.00</td>
+                            <td>4</td>
+                            <td><span class="ship-out">Ship Out</span></td>
+                            <td>10-30-2022</td>
+                            <td><a href="view-order.html" class="view-order d-flex align-items-center justify-content-center"><span class="material-symbols-outlined">open_in_new</span> View Order Items</a></td>
+                        </tr>
+                        <tr>
+                            <td>1000245</td>
+                            <td>₱2000.00</td>
+                            <td>4</td>
+                            <td><span class="ship-out">Ship Out</span></td>
+                            <td>10-30-2022</td>
+                            <td><a href="view-order.html" class="view-order d-flex align-items-center justify-content-center"><span class="material-symbols-outlined">open_in_new</span> View Order Items</a></td>
+                        </tr>
+                        <tr>
+                            <td>1000245</td>
+                            <td>₱2000.00</td>
+                            <td>4</td>
+                            <td><span class="cancelled">Cancelled</span></td>
+                            <td>10-30-2022</td>
+                            <td><a href="view-order.html" class="view-order d-flex align-items-center justify-content-center"><span class="material-symbols-outlined">open_in_new</span> View Order Items</a></td>
+                        </tr>
+                      </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bootstrap/bootstrap.js"></script>
+    <script src="./bootstrap/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
