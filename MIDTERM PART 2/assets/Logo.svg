@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="clip-Logo">
+      <rect width="200" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" clip-path="url(#clip-Logo)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="188" height="188" rx="15" transform="translate(6 6)" fill="#ffd39a"/>
+    <text id="B" transform="translate(114 135)" fill="#383838" font-size="127" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-42.664" y="0">B</tspan></text>
+    <rect id="Rectangle_27" data-name="Rectangle 27" width="9" height="91" transform="translate(71 44)" fill="#464545"/>
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="9" height="91" transform="translate(59 44)" fill="#464545"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="9" height="93" transform="translate(152 138) rotate(90)" fill="#464545"/>
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="9" height="93" transform="translate(152 150) rotate(90)" fill="#464545"/>
+  </g>
+</svg>
